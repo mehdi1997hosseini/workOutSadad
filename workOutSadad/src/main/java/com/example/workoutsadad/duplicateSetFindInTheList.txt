@@ -1,0 +1,15 @@
+suroshen : 
+public static void main(String[] args) {
+    List<String> list = Arrays.asList("Java", "C#", "Java", "Python");
+    list.forEach( s -> System.out.println(s + " " + Collections.frequency(list, s)));
+}
+
+result : 
+Java 2
+C# 1
+Java 2
+Python 1
+
+
+
+/// How to find duplicate rows and display the number of repetitions in front of them
